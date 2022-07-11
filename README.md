@@ -82,7 +82,7 @@ Contains
 
 ### Phase 2
 
-* Scheduler is edited to include memory allocation capabilities using the **buddy memory allocation system**. It should allocate memory space for processes as they enter the system and free it as they leave so that it can be re-used by later processes.
+* Scheduler is modified to include memory allocation capabilities using the **buddy memory allocation system**. It should allocate memory space for processes as they enter the system and free it as they leave so that it can be re-used by later processes.
 * The total memory size is 1024 bytes.
 
 #### Input file edit
