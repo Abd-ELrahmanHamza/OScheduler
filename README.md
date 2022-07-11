@@ -117,21 +117,32 @@ git clone https://github.com/Abd-ELrahmanHamza/OScheduler
 
 * Direct to the folder of phase1 ot phase2
 * Open terminal
+* Build project using
 ```
 make
 ```
-or 
+* Or build it using 
 ```
 make build
 ```
+* Generate test cases
 ```
 ./test_generator.out
 ```
 * Enter number of processes to be generated
+* Run it using
 ```
 make run
 ```
 * Select algorithm
+    
+    1 for Non-preemptive Highest Priority First (HPF).
+
+    2 for Shortest Remaining time Next (SRTN)
+    
+    3 for Round Robin (RR).
+
+* In case of round robin enter the quantum
 
 ## Contributors
 
